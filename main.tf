@@ -1,13 +1,13 @@
 provider "aws" {
-#   region = var.region
-#   default_tags {
-#     tags = {
-#       Owner       = "Globomantics"
-#       Project     = var.project
-#       Environment = var.environment
-#     }
-#   }
-# }
+  region = var.region
+  default_tags {
+    tags = {
+      Owner       = "Globomantics"
+      Project     = var.project
+      Environment = var.environment
+    }
+  }
+}
 
 
 # resource "aws_vpc" "diamond_dogs" {
